@@ -1,0 +1,302 @@
+.pagebg{
+    background-color: blueviolet;
+    /* background-image: url("https://wallpaperplay.com/walls/full/e/1/c/5074.jpg"); */
+    /* background-image: url("https://wallpaperset.com/w/full/7/3/0/53120.jpg"); */
+    background-image: url(53120.jpg);
+    background-position: center;
+}
+.title{
+    /* text-size-adjust: 50px; */
+    font-family: "Do Hyeon","Lobster",Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    text-align: center;
+    color: #ffa500;
+    text-shadow: 0 5px 20px #4d00ff;
+}
+.box1{
+    /* border-color: chartreuse; */
+    border-color: #087480;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 10px;
+    margin-right: 500px;
+    margin-left: 520px;
+    /* margin-top: 400px; */
+    /* margin-bottom: 450px; */
+    /* padding: 200px; */
+    width: 450px;
+    height: 500px;
+    background-color: rgba(44, 13, 13, 0.808);
+    box-shadow: 0 10px 20px rgba(0,0,0,1.0);
+    opacity: 1.0;
+    /* text-transform: ; */
+}
+.details{
+  font-family: "Righteous","Acme",Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: greenyellow;
+  font-weight: 500;
+  padding: 60px;
+}
+.box2{
+  border: 3.5px solid goldenrod;
+  border-radius: 17px;
+  font-size: large;
+}
+.circle1{
+  background-image: url(https://privacyinternational.org/sites/default/files/flysystem/styles/large/local-default/2019-03/Facebook_logo_%28square%29.png?itok=-pWqO5De);
+  background-image: url(fb.png);
+  background-position: center;
+  background-size: contain;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  /* position: relative;
+  top: 40px; */
+  position: absolute;
+  bottom: 45px;
+}
+.circle2{
+  background-image: url(https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip);
+  background-image: url(google.jpg);
+  background-repeat: inherit;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 10px;
+  left: 90px;
+}
+.circle3{
+  background-image: url(https://i.dlpng.com/static/png/6757939_preview.png);
+  background-image: url(reddit.png);
+  background-position: center;
+  background-size: contain;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 35px;
+  position: relative;
+  bottom: 60px;
+  left: 185px;
+}
+.circle4{
+  background-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+  background-image: url(github.png);
+  background-position: center;
+  background-size: contain;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  position: relative;
+  bottom: 112px;
+  left:275px;
+}
+/*
+<style>
+  .penguin {
+
+    Only change code below this line
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+    Only change code above this line
+
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    background: var(--penguin-skin, gray);
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, gray);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: var(--penguin-belly, white);
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: var(--penguin-beak, orange);
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 60%;
+    left: 40%;
+    background: var(--penguin-beak, orange);
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 65%;
+    left: 42%;
+    background: var(--penguin-beak, orange);
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  body {
+    background:#c6faf1;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
+  
+</style>
+<div class="penguin">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+*/

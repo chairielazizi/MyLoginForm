@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First WebPage</title>
+        <script src="test.js">
+
+        </script>
+        <link rel="stylesheet" href="test.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Modak&family=Righteous&display=swap');
+        </style>
+    </head>
+    <body class="pagebg">
+        <h1 class="title">
+            Login Page
+        </h1>
+        <div class="box1">
+            <!-- <?php require_once 'data.php' ?> -->
+            <form action="includes/signup.php" method="POST" name="form1">
+                <div class="details">
+                    <input type="hidden" name="hidden" value="hiddenVariable">
+                    <p>Username : <input type="text" name="name" placeholder="  username" class="box2" style="position: relative;left: 14.1px ;" required></p>
+                    <p>Password : <input type="password" name="pwd" placeholder="  password" class="box2" style="position: relative;left: 15px ;" required></p>
+                    <p>Gender :</p>
+                    <label for="male"> <input id="male" value="male" type="radio" name="gender"> Male</label>
+                    <label for="female"> <input id="female" value="female" type="radio" name="gender"> Female</label>
+                    <br>
+                    <p>Personality :</p>
+                    <label for="loving"><input id="loving" value="loving" type="checkbox" name="personality" checked> Loving</label>
+                    <label for="funny"><input id="funny" value="funny" type="checkbox" name="personality"> Funny</label>
+                    <label for="cute"><input id="cute" value="cute" type="checkbox" name="personality"> Cute</label>
+                    <br>
+                    <input type="submit" name="submit" value="Login">
+                    <!-- <button type="submit">Submit</button> -->
+                    <hr style="color: aliceblue;">
+                    <p style="text-align: center;">Or Sign Up With:</p>
+                    <a href="https://www.facebook.com"><div class="circle1"></div></form></a>
+                    <a href="https://www.google.com"><div class="circle2"></div></a>
+                    <a href="https://www.reddit.com"><div class="circle3"></div></a>
+                    <a href="https://www.github.com"><div class="circle4"></div></a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
