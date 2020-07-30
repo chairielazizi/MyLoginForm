@@ -1,7 +1,7 @@
 # MyLoginForm
 
 ### This is a screenshot of my simple login form(test.html)
-<img src="https://github.com/chairielazizi/MyLoginForm/blob/master/screenshot1.png" width=1000px height=500px/>
+<img src="https://github.com/chairielazizi/MyLoginForm/blob/master/screenshot1.png" width=1000px height=480px/>
 <br/>
 
 ### The includes folder contains the PHP code for server side scripting
